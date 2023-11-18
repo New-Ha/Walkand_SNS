@@ -1,3 +1,8 @@
 export default function NavBar() {
-    return <div>NavBar</div>;
+    return (
+        <>
+            <div>home</div>
+            <div>porfile</div>
+        </>
+    );
 }

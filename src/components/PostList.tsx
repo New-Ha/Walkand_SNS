@@ -1,3 +1,3 @@
 export default function PostList() {
-    return <div>PostList</div>;
+    return <div>map-post</div>;
 }

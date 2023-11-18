@@ -1,3 +1,8 @@
 export default function Layout() {
-    return <div>Layout</div>;
+    return (
+        <>
+            <div>sidebar</div>
+            <div>content</div>
+        </>
+    );
 }
