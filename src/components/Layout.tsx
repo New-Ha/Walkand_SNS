@@ -4,6 +4,7 @@ import styled from 'styled-components';
 
 const LayoutLayout = styled.div`
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
 `;
@@ -13,14 +14,27 @@ const LayoutBox = styled.div`
     display: flex;
     width: 90%;
     height: 90%;
+    padding: 0;
+`;
+const LayoutCol = styled.div`
+    width: 30%;
+    margin: 0 auto;
 `;
 
+const LayoutCol2 = styled.div`
+    width: 70%;
+    margin: 0 auto;
+`;
 export default function Layout() {
     return (
         <LayoutLayout>
             <LayoutBox>
-                <Sidebar />
-                <Outlet />
+                <LayoutCol>
+                    <Sidebar />
+                </LayoutCol>
+                <LayoutCol2>
+                    <Outlet />
+                </LayoutCol2>
             </LayoutBox>
         </LayoutLayout>
     );
