@@ -3,11 +3,13 @@ import styled from 'styled-components';
 const FooterLayout = styled.footer`
     width: 70%;
     display: flex;
+    justify-content: center;
+    gap: 10%;
     text-align: center;
-    padding: 20px;
     span {
+        font-size: 14px;
         font-weight: 300;
-        color: #888;
+        color: #999;
     }
 `;
 

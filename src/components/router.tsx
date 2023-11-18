@@ -4,6 +4,7 @@ import LoginPage from '../pages/login';
 import SignUpPage from '../pages/signUp';
 import ProfilePage from '../pages/profile';
 import Layout from './Layout';
+import NewPostPage from '../pages/home/newPost';
 
 export const router = createBrowserRouter([
     {
@@ -17,6 +18,10 @@ export const router = createBrowserRouter([
             {
                 path: '/profile',
                 element: <ProfilePage />,
+            },
+            {
+                path: '/new',
+                element: <NewPostPage />,
             },
         ],
     },
