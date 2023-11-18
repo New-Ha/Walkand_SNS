@@ -17,12 +17,12 @@ const LayoutBox = styled.div`
     padding: 0;
 `;
 const LayoutCol = styled.div`
-    width: 30%;
+    width: 25%;
     margin: 0 auto;
 `;
 
 const LayoutCol2 = styled.div`
-    width: 70%;
+    width: 75%;
     margin: 0 auto;
 `;
 export default function Layout() {
